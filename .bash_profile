@@ -16,3 +16,6 @@ alias gc='git checkout '
 alias gpl='git pull'
 alias gps='git push'
 alias gcm='git commit -m '
+
+# ssh
+alias cpssh='cp -R -p ~/.ssh /Volumes/Files'
