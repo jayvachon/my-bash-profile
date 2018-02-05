@@ -1,6 +1,6 @@
 # Open and save bash_profile for editing
 alias obp="sudo nano ~/.bash_profile"
-alias sbp="source ~/.bash_profile;git add ~/.bash_profile;git commit -m 'update bash_profile';git push"
+alias sbp="sudo source ~/.bash_profile;git add ~/.bash_profile;git commit -m 'update bash_profile';git push"
 alias dn="node $NODEPATH/democracy-now-downloader/index.js"
 
 # PATH stuff
@@ -13,6 +13,7 @@ export PATH=$GOPATH/bin:~/mongodb/bin:$PATH
 alias gs='git status'
 alias ga='git add '
 alias gc='git checkout '
+alias gd='git diff '
 alias gpl='git pull'
 alias gps='git push'
 alias gcm='git commit -m '
