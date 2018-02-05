@@ -1,0 +1,17 @@
+*
+!.gitignore
+!.bash_profile
+
+.DS_Store
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+VDIs/
+VirtualBox VMs/
+iso/
+misc/
