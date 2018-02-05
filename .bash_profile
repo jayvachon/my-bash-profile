@@ -7,7 +7,7 @@ alias dn="node $NODEPATH/democracy-now-downloader/index.js"
 export HOMEPATH=/Users/jay
 export GOPATH=$HOMEPATH/go
 export NODEPATH=$HOMEPATH/node
-export PATH=$GOPATH/bin:$PATH
+export PATH=$GOPATH/bin:~/mongodb/bin:$PATH
 
 # Git
 alias gs='git status'
