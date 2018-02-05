@@ -5,7 +5,7 @@ alias dn="node $USRPATH/node/democracy-now-downloader/index.js"
 
 # PATH stuff
 export USRPATH=/usr/local
-export GOPATH=$USRPATH/go
+export GOPATH=$HOMEPATH/go
 export NODEPATH=$USRPATH/node
 export PATH=$GOPATH/bin:$PATH
 
