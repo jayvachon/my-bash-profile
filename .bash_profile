@@ -4,6 +4,7 @@ alias sbp="source ~/.bash_profile;git add ~/.bash_profile;git commit -m 'update 
 alias dn="node $NODEPATH/democracy-now-downloader/index.js"
 
 # PATH stuff
+export HOMEPATH=/Users/jay
 export GOPATH=$HOMEPATH/go
 export NODEPATH=$HOMEPATH/node
 export PATH=$GOPATH/bin:$PATH
