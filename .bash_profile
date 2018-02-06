@@ -1,7 +1,6 @@
 # Open and save bash_profile for editing
 alias obp="sudo nano ~/.bash_profile"
-alias sbp="sudo source ~/.bash_profile;git add ~/.bash_profile;git commit -m 'update bash_profile';git push"
-alias dn="node $NODEPATH/democracy-now-downloader/index.js"
+alias sbp="cd ~;source .bash_profile;git add .bash_profile;git commit -m 'update bash_profile';git push;cp -"
 
 # PATH stuff
 export HOMEPATH=/Users/jay
@@ -20,3 +19,6 @@ alias gcm='git commit -m '
 
 # ssh
 alias cpssh='cp -R -p ~/.ssh /Volumes/Files'
+
+alias dn="node $NODEPATH/democracy-now-downloader/index.js"
+
