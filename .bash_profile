@@ -20,5 +20,9 @@ alias gcm='git commit -m '
 # ssh
 alias cpssh='cp -R -p ~/.ssh /Volumes/Files'
 
+# ip addresses
+alias ip-ushirikina='159.65.36.30'
+alias ip-backup='174.138.57.66'
+
 alias dn="node $NODEPATH/democracy-now-downloader/index.js"
 
