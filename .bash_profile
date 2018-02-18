@@ -16,6 +16,8 @@ alias gd='git diff '
 alias gpl='git pull'
 alias gps='git push'
 alias gcm='git commit -m '
+alias gl10='git log --oneline -10'
+alias gl20='git log --oneline -20'
 
 # ssh
 alias cpssh='cp -R -p ~/.ssh /Volumes/Files'
