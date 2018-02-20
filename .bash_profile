@@ -32,4 +32,5 @@ alias kelele='cd ~/ng/kelele'
 
 alias crontab-nano="export VISUAL=nano; crontab -e"
 alias dn="node $NODEPATH/democracy-now-downloader/index.js"
+alias funding-status="python -m json.tool ~/node/bitfinex-margin-funding-reader/results.json"
 
