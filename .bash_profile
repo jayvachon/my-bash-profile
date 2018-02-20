@@ -27,8 +27,8 @@ alias ushirikina-login='ssh root@159.65.36.30'
 alias backup-login='ssh root@174.138.57.66'
 
 # projects
-alias ushirikina='cd ~/go/src/github.com/hakunashida/ushirikina'
-alias kelele='cd ~/ng/kelele'
+alias cdushirikina='cd ~/go/src/github.com/hakunashida/ushirikina'
+alias cdkelele='cd ~/ng/kelele'
 
 alias crontab-nano="export VISUAL=nano; crontab -e"
 alias dn="node $NODEPATH/democracy-now-downloader/index.js"
