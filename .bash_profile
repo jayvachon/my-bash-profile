@@ -29,8 +29,10 @@ alias backup-login='ssh root@174.138.57.66'
 # projects
 alias cdushirikina='cd ~/go/src/github.com/hakunashida/ushirikina'
 alias cdkelele='cd ~/ng/kelele'
+alias cdsublime='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/'
 
 alias crontab-nano="export VISUAL=nano; crontab -e"
 alias dn="node $NODEPATH/democracy-now-downloader/index.js"
 alias funding-status="python -m json.tool ~/node/bitfinex-margin-funding-reader/results.json"
 
+alias ls="ls -ls"
