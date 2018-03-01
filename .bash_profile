@@ -34,4 +34,4 @@ alias cdsublime='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Use
 alias crontab-nano="export VISUAL=nano; crontab -e"
 alias dn="node $NODEPATH/democracy-now-downloader/index.js"
 alias funding-status="python -m json.tool ~/node/bitfinex-margin-funding-reader/results.json"
-
+alias open-mail="sublime /var/mail/$USER"
