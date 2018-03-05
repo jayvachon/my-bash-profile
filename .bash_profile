@@ -24,7 +24,7 @@ alias cpssh='cp -R -p ~/.ssh /Volumes/Files'
 
 # server logins
 alias ushirikina-login='ssh root@159.65.36.30'
-alias backup-login='ssh root@174.138.57.66'
+alias luddchain-login='ssh root@167.99.4.0'
 
 # projects
 alias cdushirikina='cd ~/go/src/github.com/hakunashida/ushirikina'
