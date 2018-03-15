@@ -23,8 +23,8 @@ alias gl20='git log --oneline -20'
 alias cpssh='cp -R -p ~/.ssh /Volumes/Files'
 
 # server logins
-alias ushirikina-login='ssh root@159.65.36.30'
-alias luddchain-login='ssh root@167.99.4.0'
+alias ushirikina-login='mosh root@159.65.36.30 -p 8080'
+alias luddchain-login='mosh root@167.99.4.0 -p 8080'
 
 # projects
 alias cdushirikina='cd ~/go/src/github.com/hakunashida/ushirikina'
